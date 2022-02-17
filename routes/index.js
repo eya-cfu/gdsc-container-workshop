@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get("/", function (req, res, next) {
-  res.render("index", { title: "GDSC CI/CD workshop" });
+  res.render("index", { title: "GDSC Deploy Pipeline workshop" });
 });
 
 module.exports = router;
